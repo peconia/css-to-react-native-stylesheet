@@ -29,7 +29,7 @@ function handle_transformation(css_file, new_file_name) {
         var transformed = transform(file);
         const util = require('util');
 
-        var wrapper = fs.readFileSync("stylesheetWrapper.js", "utf8");
+        var wrapper = fs.readFileSync(__dirname + '/stylesheetWrapper.js', "utf8");
 
         var result = wrapper.replace("REPLACE", function () {
             return util.inspect(transformed, {compact: false, depth: 5, breakLength: 80});
