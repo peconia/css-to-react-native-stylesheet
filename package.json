@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Paivi",
+  "author": "Peconia",
   "license": "ISC",
   "bin": {
     "csstransform": "./cli.js"
@@ -14,5 +14,9 @@
   "dependencies": {
     "commander": "^2.15.1",
     "css-to-react-native-transform": "^1.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/peconia/css-to-react-native-stylesheet"
   }
 }
