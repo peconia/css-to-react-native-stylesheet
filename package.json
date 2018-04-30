@@ -1,6 +1,6 @@
 {
   "name": "css-to-react-native-stylesheet",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Transform a css file into a React Native stylesheet.",
   "main": "index.js",
   "scripts": {
@@ -18,5 +18,15 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/peconia/css-to-react-native-stylesheet"
-  }
+  },
+  "keywords": [
+    "styled-components",
+    "React",
+    "ReactNative",
+    "styles",
+    "CSS",
+    "styleSheet",
+    "cli",
+    "tool"
+  ]
 }
