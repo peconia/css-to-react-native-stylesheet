@@ -5,7 +5,6 @@ to transform a file with valid CSS into a file that contains a React Native styl
 
 
 
-
 Installation:
 
     npm i css-to-react-native-stylesheet -g
@@ -41,7 +40,7 @@ Example:
 }
 ```
 
-is transformed to:
+is transformed into a file that contains:
 
 ```result.js
 import { StyleSheet } from 'react-native';
