@@ -1,6 +1,6 @@
 {
   "name": "css-to-react-native-stylesheet",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Transform a css file into a React Native stylesheet.",
   "main": "index.js",
   "scripts": {
@@ -12,8 +12,8 @@
     "csstransform": "./cli.js"
   },
   "dependencies": {
-    "commander": "^2.15.1",
-    "css-to-react-native-transform": "^1.4.0"
+    "commander": "^2.19.0",
+    "css-to-react-native-transform": "^1.7.0"
   },
   "repository": {
     "type": "git",

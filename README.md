@@ -1,7 +1,7 @@
 # css-to-react-native-stylesheet
 
 Transform a css file into a React Native stylesheet. This is a command line tool that uses [css-to-react-native-transform](https://www.npmjs.com/package/css-to-react-native-transform) 
-to transform a file with valid CSS into a file that contains a React Native stylesheet.
+to transform a file with valid CSS into a file that contains a React Native stylesheet. The result is not escaped or stringified to json, it is a valid stylesheet.
 
 
 
